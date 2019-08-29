@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity"
+    android:background="#C594DE">
+
+
+
+
+    <TextView
+        android:id="@+id/sms_sender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="마지막 메세지"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+    <TextView
+        android:id="@+id/sms_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sms_sender"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="없습니다"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ToggleButton
+        android:id="@+id/speechToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textOff="메세지 읽기를 시작합니다"
+        android:textOn="중단합니다" />
+
+
+
+
+
+
+</RelativeLayout>
