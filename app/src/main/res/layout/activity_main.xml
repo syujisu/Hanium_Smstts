@@ -8,9 +8,7 @@
     android:paddingTop="16dp"
     android:paddingBottom="16dp"
     tools:context=".MainActivity"
-    android:background="#C594DE">
-
-
+    android:background="@drawable/background">
 
 
     <TextView
@@ -19,11 +17,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="164dp"
         android:text="마지막 메세지"
-        android:textSize="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="#FFFFFF"
-        android:textAppearance="?android:attr/textAppearanceSmall" />
+        android:textSize="20dp"
+        android:textStyle="bold"/>
 
 
     <TextView
@@ -36,6 +35,7 @@
         android:text="없습니다"
         android:textSize="30dp"
         android:textColor="#FFFFFF"
+        android:textStyle="bold"
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
     <ToggleButton
@@ -45,7 +45,8 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:textOff="메세지 읽기를 시작합니다"
-        android:textOn="중단합니다" />
+        android:textOn="중단합니다"
+        android:textStyle="bold"/>
 
 
 
